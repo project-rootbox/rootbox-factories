@@ -12,6 +12,9 @@ curl -Lo haskell.tgz "$URL"
 tar xvf haskell.tgz
 
 sudo sh install-haskell-platform.sh
-stack config set system-ghc --global true
 
+# Workaround various linking issues that prevent you from building...anything!
 sudo sed -i 's/-no-pie","NO/-no-pie","YES/g' "$GHC_SETTINGS"
+
+stack config set system-ghc --global true
+stack update

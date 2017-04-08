@@ -31,6 +31,11 @@ General-purpose
 Programming tools
 ^^^^^^^^^^^^^^^^^
 
-- *nim.sh* - Installs `Nim <https://nim-lang.org/>`_.
-- *haskell.sh* - Installs the minimal
+- *haskell-core.sh* - Installs the minimal/core
   `Haskell Platform <https://www.haskell.org/platform/>`_.
+- *haskell-full.sh* - Installs the full
+  `Haskell Platform <https://www.haskell.org/platform/>`_.
+- *nim.sh* - Installs `Nim <https://nim-lang.org/>`_.
+
+The contents of the **priv** directory are used internally and are NOT intended
+to be used by others!!

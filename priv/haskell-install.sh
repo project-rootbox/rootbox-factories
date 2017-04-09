@@ -1,5 +1,5 @@
-#:DEPENDS git:project-rootbox/rootbox-factories///libc-compat.sh
-#:DEPENDS git:project-rootbox/rootbox-factories///ncurses-compat.sh
+#:DEPENDS git:project-rootbox/rootbox-factories///general/libc-compat.sh
+#:DEPENDS git:project-rootbox/rootbox-factories///general/ncurses-compat.sh
 
 set -e
 

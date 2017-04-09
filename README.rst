@@ -20,16 +20,24 @@ or::
 Scripts
 *******
 
-General-purpose
-^^^^^^^^^^^^^^^
+General-purpose (inside the general folder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+usage::
+
+  git:project-rootbox/rootbox-factories///general/SCRIPT.sh
 
 - *libc-compat.sh* - Handy for "portable", dynamically-linked Linux binaries.
   Install ``ld-linux-x86-64.so.2`` in ``/lib64``.
 - *ncurses-compat.sh* - Sets up ``libtinfo.so.5`` as an alias for
   ``libncurses.so.5``.
 
-Programming tools
-^^^^^^^^^^^^^^^^^
+Programming tools (inside the dev folder)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+usage::
+
+  git:project-rootbox/rootbox-factories///dev/SCRIPT.sh
 
 - *haskell-core.sh* - Installs the minimal/core
   `Haskell Platform <https://www.haskell.org/platform/>`_.

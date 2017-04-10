@@ -29,6 +29,7 @@ usage::
 
 - *libc-compat.sh* - Handy for "portable", dynamically-linked Linux binaries.
   Install ``ld-linux-x86-64.so.2`` in ``/lib64``.
+- *glibc.sh* - Similar to the above, but instead installs full glibc.
 - *ncurses-compat.sh* - Sets up ``libtinfo.so.5`` as an alias for
   ``libncurses.so.5``.
 

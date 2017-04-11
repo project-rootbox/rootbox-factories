@@ -41,6 +41,8 @@ usage::
 
   git:project-rootbox/rootbox-factories///dev/SCRIPT.sh
 
+- *autotools.sh* - Installs autoconf, automake, and libtool.
+- *cmake.sh* - Installs `CMake <https://cmake.org/>`.
 - *crystal.sh* - Installs `Crystal <https://crystal-lang.org/>`_ and Shards
   using `this repo <http://public.portalier.com/alpine>`_.
 - *fakessp.sh* - Installs

@@ -1,3 +1,5 @@
+#:DEPENDS git:project-rootbox/rootbox-factories///dev/icu.sh
+
 set -e
 
 SOURCES=http://ftp.gnome.org/pub/gnome/sources
@@ -35,24 +37,28 @@ tar xvf gobj.txz
 cd $GOBJ-$GOBJ_MIN_VER
 ./configure
 sudo make install
+cd ..
 
 curl -Lfo gdkpix.txz $GDKPIX_SOURCES
 tar xvf gdkpix.txz
 cd $GDKPIX-$GDKPIX_MIN_VER
 ./configure --enable-static --prefix=/usr
 sudo make install
+cd ..
 
 curl -Lfo pango.txz $PANGO_SOURCES
 tar xvf pango.txz
 cd $PANGO-$PANGO_MIN_VER
 ./configure --enable-static --prefix=/usr
 sudo make install
+cd ..
 
 curl -Lfo atk.txz $ATK_SOURCES
 tar xvf atk.txz
 cd $ATK-$ATK_MIN_VER
 ./configure --enable-static --prefix=/usr
 sudo make install
+cd ..
 
 curl -Lfo gtk.txz $GTK_SOURCES
 tar xvf gtk.txz
@@ -60,3 +66,4 @@ cd $GTK-$GTK_MIN_VER
 ./configure --enable-static --prefix=/usr
 sed -i 's/tests testsuite//' Makefile
 sudo make install
+cd ..

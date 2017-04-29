@@ -54,6 +54,7 @@ usage::
   `Haskell Platform <https://www.haskell.org/platform/>`_.
 - *haskell-full.sh* - Installs the full
   `Haskell Platform <https://www.haskell.org/platform/>`_.
+- *icu.sh* - Installs both static and shared variants of the ICU libraries.
 - *nim.sh* - Installs `Nim <https://nim-lang.org/>`_.
 
 The contents of the **priv** directory are used internally and are NOT intended

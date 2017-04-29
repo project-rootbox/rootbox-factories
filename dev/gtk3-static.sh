@@ -28,7 +28,7 @@ GTK_MIN_VER=3.22.12
 GTK_SOURCES=$SOURCES/$GTK/$GTK_MAJ_VER/$GTK-$GTK_MIN_VER.tar.xz
 
 sudo apk add xz glib-static@edge glib-dev@edge flex bison python2-dev \
-                tiff-dev libpng-dev
+                tiff-dev cairo-dev
 
 curl -Lfo gobj.txz $GOBJ_SOURCES
 tar xvf gobj.txz

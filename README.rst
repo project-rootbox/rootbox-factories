@@ -33,6 +33,7 @@ usage::
   `alpine-pkg-glibc <https://github.com/sgerrand/alpine-pkg-glibc>`_.
 - *ncurses-compat.sh* - Sets up ``libtinfo.so.5`` as an alias for
   ``libncurses.so.5``.
+- *ucg.sh* - Installs [ucg](https://gvansickle.github.io/ucg/).
 
 Programming tools (inside the dev folder)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

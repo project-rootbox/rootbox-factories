@@ -1,5 +1,3 @@
-# git:project-rootbox/rootbox-factories///general/libc-compat.sh
-
 REPO=sgerrand/alpine-pkg-glibc
 VER=2.25-r0
 KEY=https://raw.githubusercontent.com/$REPO/master/sgerrand.rsa.pub

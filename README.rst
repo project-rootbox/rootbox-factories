@@ -50,6 +50,7 @@ usage::
   `fakessp <https://github.com/project-rootbox/fakessp>`_. If you're having
   linking issues due to missing ``_chk`` calls, try installing this and passing
   ``-lfakessp`` to your linker.
+- *felix.sh* - Installs `Felix <http://felix-lang.org/>`_.
 - *haskell-core.sh* - Installs the minimal/core
   `Haskell Platform <https://www.haskell.org/platform/>`_.
 - *haskell-full.sh* - Installs the full

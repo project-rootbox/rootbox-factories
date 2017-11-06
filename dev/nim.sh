@@ -1,6 +1,6 @@
 sudo apk add xz linenoise-dev libexecinfo-dev
 
-curl -L https://nim-lang.org/download/nim-0.16.0.tar.xz -o nim.txz
+curl -L https://nim-lang.org/download/nim-0.17.2.tar.xz -o nim.txz
 tar xvf nim.txz
 cd nim-0.16.0
 ./build.sh
